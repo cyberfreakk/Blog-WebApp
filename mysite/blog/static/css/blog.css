@@ -1,0 +1,69 @@
+.techfont{
+    font-family:'Russo One' , sans-serif;
+    font-size: 1.5em ;
+    margin-bottom: 10px;
+}
+.centerstage{
+    margin-left: auto;
+    margin-right: auto;
+}
+.bigbrand{
+    font-size: 1.5em;
+}
+
+.postdate{
+    text-align: center;
+}
+
+.posttitle{
+    text-align: center;
+    font-family: 'Russo One',sans-serif;
+    font-size: 3em;
+}
+
+.postcontent{
+    font-family: 'Calistoga';
+    font-size: 1.5em;
+}
+
+.btn-comment{
+    position: absolute;
+    right: 0px;
+}
+
+.loader {
+filter:hue-rotate(0deg);
+background-color:linear-gradient(45deg,#0f8,#08f);
+animation:hue 10000ms infinite linear;
+
+}
+
+@keyframes spinify {
+0% {
+    transform: translate(0px,0px);
+    
+}
+33% {
+    transform: translate(0px,24px);
+    border-radius:100%;
+    width:10px;
+    height:10px;
+
+}
+    66% {
+    transform:translate(0px,-16px);
+}
+
+    88% {
+    transform:translate(0px,4px);
+    
+}
+100% {
+    transform:translate(0px,0px);
+}
+}
+@keyframes hue{
+0%{filter: hue-rotate(0deg);}
+100%{filter:hue-rotate(360deg);}
+
+}
